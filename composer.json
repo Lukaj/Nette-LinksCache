@@ -1,0 +1,23 @@
+{
+        "name": "lukaj/nette-links-cache",
+        "type": "library",
+        "description": "A simple implementation of links caching mechanism for Nette Framework",
+        "keywords": ["nette", "cache", "link"],
+        "license": ["LGPL-3.0"],
+        "authors": [
+                {
+                        "name": "Lukas Mazur"
+                }
+        ],
+        "require": {
+                "nette/nette": "@dev"
+        },
+        "require-dev": {
+                "nette/tester": "@dev"
+        },
+        "autoload": {
+                "psr-0": {
+                        "Lukaj\\LinksCache": "src/"
+                }
+        }
+}
